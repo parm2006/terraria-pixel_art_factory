@@ -12,6 +12,7 @@ Requires blocks.json / walls.json produced by scrape_terraria.py.
 """
 
 import argparse
+import ctypes
 import json
 import math
 import os
@@ -22,17 +23,32 @@ from pathlib import Path
 from PIL import Image
 
 # ---------------------------------------------------------------------------
+# Enable ANSI escape codes on Windows
+# ---------------------------------------------------------------------------
+if sys.platform == "win32":
+    _kernel32 = ctypes.windll.kernel32
+    _handle = _kernel32.GetStdHandle(-11)  # STD_OUTPUT_HANDLE
+    _mode = ctypes.c_ulong()
+    if _kernel32.GetConsoleMode(_handle, ctypes.byref(_mode)):
+        _kernel32.SetConsoleMode(_handle, _mode.value | 0x0004)
+
+# ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
 
-MIN_PIXEL_SIZE = 8          # pixels — anything smaller isn't pixel art
+MAX_LOGICAL_DIM = 150  # max logical pixels per dimension
 DB_FILES = {
     "blocks": "blocks.json",
     "walls":  "walls.json",
 }
 
-# ANSI 24-bit color support detection
-SUPPORTS_TRUE_COLOR = os.environ.get("COLORTERM", "").lower() in ("truecolor", "24bit") or os.environ.get("WT_SESSION") is not None
+# Windows: ANSI just enabled above so always use true color.
+# Other platforms: check env var.
+SUPPORTS_TRUE_COLOR = (
+    sys.platform == "win32"
+    or os.environ.get("COLORTERM", "").lower() in ("truecolor", "24bit")
+    or os.environ.get("WT_SESSION") is not None
+)
 
 
 # ---------------------------------------------------------------------------
@@ -94,49 +110,14 @@ def hue_of(rgb: tuple) -> float:
 
 def detect_pixel_size(img: Image.Image) -> int:
     """
-    Estimate the size (in source pixels) of one 'logical pixel' in the art.
-
-    Strategy:
-      - Scan the first row and first column of the image.
-      - Find the minimum run-length before the RGB value changes.
-      - That minimum is the best lower-bound estimate of pixel size.
+    Derive logical pixel size from image dimensions.
+    We assume the image contains at most MAX_LOGICAL_DIM logical pixels
+    along its longest axis. Pixel size = ceil(max_dim / MAX_LOGICAL_DIM).
+    A 410x410 image -> ceil(410/150) = 3px per logical pixel.
+    A 64x64 image   -> ceil(64/150)  = 1px per logical pixel.
     """
-    rgb = img.convert("RGB")
-    width, height = rgb.size
-
-    def min_run_horizontal() -> int:
-        min_run = width
-        for y in range(min(height, 32)):    # sample first 32 rows
-            prev = rgb.getpixel((0, y))
-            run = 1
-            for x in range(1, width):
-                px = rgb.getpixel((x, y))
-                if px == prev:
-                    run += 1
-                else:
-                    if run < min_run:
-                        min_run = run
-                    run = 1
-                    prev = px
-        return min_run
-
-    def min_run_vertical() -> int:
-        min_run = height
-        for x in range(min(width, 32)):     # sample first 32 columns
-            prev = rgb.getpixel((x, 0))
-            run = 1
-            for y in range(1, height):
-                px = rgb.getpixel((x, y))
-                if px == prev:
-                    run += 1
-                else:
-                    if run < min_run:
-                        min_run = run
-                    run = 1
-                    prev = px
-        return min_run
-
-    return min(min_run_horizontal(), min_run_vertical())
+    import math
+    return max(1, math.ceil(max(img.width, img.height) / MAX_LOGICAL_DIM))
 
 
 # ---------------------------------------------------------------------------
@@ -217,25 +198,54 @@ def count_blocks(img: Image.Image, pixel_size: int, color_to_block: dict) -> Cou
 # Output rendering
 # ---------------------------------------------------------------------------
 
-def render_color_map(color_to_block: dict):
-    """Print the color → block mapping sorted by hue (rainbow order)."""
-    sorted_entries = sorted(color_to_block.items(), key=lambda x: hue_of(x[0]))
-    print("\n── Color → Block mapping (rainbow order) ──────────────────────────")
-    for color, name in sorted_entries:
-        r, g, b = color
-        swatch = color_to_ansi(r, g, b, f"  #{r:02X}{g:02X}{b:02X}  ")
-        print(f"  {swatch}  →  {name}")
-
-
-def render_material_list(counts: Counter):
-    """Print the material list sorted by count descending."""
+def render_color_map(color_to_block: dict, counts: Counter):
+    """
+    Merge all source colors that map to the same block into one row.
+    Swatch color = the most-used source color for that block.
+    Count = total across all source colors for that block.
+    Sorted by hue of the representative color.
+    """
     total = sum(counts.values())
-    print("\n── Material list (most used first) ─────────────────────────────────")
-    for name, count in counts.most_common():
-        bar_len = max(1, round(count / total * 40))
-        bar = "█" * bar_len
-        print(f"  {name:<40s}  {count:>6} px  {bar}")
+    BAR_WIDTH = 30
+
+    # Merge: block_name -> {total_count, representative_color}
+    block_counts: dict = {}
+    block_color: dict = {}
+    color_count_for_block: dict = {}  # block -> {color: count}
+
+    for color, name in color_to_block.items():
+        c = counts.get(name, 0)
+        if name not in block_counts:
+            block_counts[name] = 0
+            color_count_for_block[name] = {}
+        block_counts[name] = counts.get(name, 0)
+        color_count_for_block[name][color] = color_count_for_block[name].get(color, 0) + 1
+
+    # Pick representative color = the source color closest to the block name's avg
+    # Simple: just pick the first one encountered (already deduplicated by most_common)
+    for color, name in color_to_block.items():
+        if name not in block_color:
+            block_color[name] = color
+
+    # Sort by hue of representative color
+    sorted_blocks = sorted(block_counts.keys(), key=lambda n: hue_of(block_color[n]))
+
+    print("\n── Pixel art material list (rainbow order) ─────────────────────────")
+    for name in sorted_blocks:
+        count = block_counts[name]
+        r, g, b = block_color[name]
+        swatch = color_to_ansi(r, g, b, f"  #{r:02X}{g:02X}{b:02X}  ")
+        pct = count / total * 100
+        bar_len = max(1, round(pct / 100 * BAR_WIDTH))
+        if SUPPORTS_TRUE_COLOR:
+            bar = f"\033[38;2;{r};{g};{b}m" + "█" * bar_len + "\033[0m"
+        else:
+            bar = "█" * bar_len
+        print(f"  {swatch}  {name:<40s}  x {count:<6}  {bar}")
     print(f"\n  Total pixels: {total}")
+
+
+
 
 
 # ---------------------------------------------------------------------------
@@ -282,20 +292,43 @@ def main():
 
     print(f"Image: {img_path.name}  ({img.width} x {img.height} px)")
 
+    # --- Strip white/transparent background ---
+    # Convert to RGBA so we can check alpha or near-white pixels
+    rgba = img.convert("RGBA")
+    r_data, g_data, b_data, a_data = rgba.split()
+    # Make near-white pixels (all channels >= 240) transparent
+    pixels = list(rgba.getdata())
+    new_pixels = []
+    for r, g, b, a in pixels:
+        if a < 30 or (r >= 240 and g >= 240 and b >= 240):
+            new_pixels.append((255, 255, 255, 0))  # transparent
+        else:
+            new_pixels.append((r, g, b, a))
+    rgba.putdata(new_pixels)
+    # Crop to non-transparent bounding box
+    bbox = rgba.getbbox()
+    if bbox:
+        rgba = rgba.crop(bbox)
+        print(f"Cropped to content: {rgba.width} x {rgba.height} px")
+    img = rgba
+
+    # --- Quantize to reduce compression noise ---
+    # Convert to RGB palette with N colors, then back - snaps near-identical colors
+    NUM_COLORS = 128
+    rgb_img = img.convert("RGB")
+    quantized = rgb_img.quantize(colors=NUM_COLORS, method=Image.Quantize.MEDIANCUT).convert("RGB")
+    # Re-apply transparency mask from before quantization
+    quantized_rgba = quantized.convert("RGBA")
+    alpha_mask = img.split()[3]  # original alpha channel after bg strip
+    quantized_rgba.putalpha(alpha_mask)
+    img = quantized_rgba
+    print(f"Quantized to {NUM_COLORS} colors")
+
     # --- Detect pixel size ---
     pixel_size = detect_pixel_size(img)
-    print(f"Detected pixel size: {pixel_size} px")
-
-    if pixel_size < MIN_PIXEL_SIZE:
-        print(
-            f"\n[ERROR] This does not look like pixel art.\n"
-            f"        Detected pixel size: {pixel_size} px\n"
-            f"        Minimum required:    {MIN_PIXEL_SIZE} px\n"
-            f"\n"
-            f"        Pixel art pixels must be at least {MIN_PIXEL_SIZE}x{MIN_PIXEL_SIZE} source pixels.\n"
-            f"        If this IS pixel art, try scaling it up (e.g. 8x) before running."
-        )
-        sys.exit(1)
+    logical_w = img.width  // pixel_size
+    logical_h = img.height // pixel_size
+    print(f"Pixel size: {pixel_size} px  →  logical grid: {logical_w} x {logical_h} blocks")
 
     # --- Build matcher & process ---
     match_fn = build_matcher(db)
@@ -305,8 +338,7 @@ def main():
     # --- Output ---
     print(f"\nUnique colors in image:  {len(color_to_block)}")
     print(f"Unique blocks/walls used: {len(counts)}")
-    render_color_map(color_to_block)
-    render_material_list(counts)
+    render_color_map(color_to_block, counts)
 
 
 if __name__ == "__main__":
