@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Dirt Block",
@@ -513,15 +514,6 @@
     "sprite_url": "https://terraria.wiki.gg/images/Mahogany_Leaf_Block.png"
   },
   {
-    "name": "Thin Ice",
-    "avg_color": [
-      84,
-      118,
-      175
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Thin_Ice.png"
-  },
-  {
     "name": "Cloud",
     "avg_color": [
       185,
@@ -574,15 +566,6 @@
       10
     ],
     "sprite_url": "https://terraria.wiki.gg/images/Crispy_Honey_Block.png"
-  },
-  {
-    "name": "Cobweb",
-    "avg_color": [
-      97,
-      108,
-      110
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Cobweb.png"
   },
   {
     "name": "Active Stone Block",
@@ -873,69 +856,6 @@
     "sprite_url": "https://terraria.wiki.gg/images/Amber_Stone_Block.png"
   },
   {
-    "name": "Amber Stone Wall",
-    "avg_color": [
-      62,
-      53,
-      41
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Amber_Stone_Wall.png"
-  },
-  {
-    "name": "Amethyst Stone Wall",
-    "avg_color": [
-      62,
-      51,
-      69
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Amethyst_Stone_Wall.png"
-  },
-  {
-    "name": "Diamond Stone Wall",
-    "avg_color": [
-      47,
-      57,
-      59
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Diamond_Stone_Wall.png"
-  },
-  {
-    "name": "Emerald Stone Wall",
-    "avg_color": [
-      36,
-      54,
-      42
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Emerald_Stone_Wall.png"
-  },
-  {
-    "name": "Ruby Stone Wall",
-    "avg_color": [
-      61,
-      41,
-      45
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Ruby_Stone_Wall.png"
-  },
-  {
-    "name": "Sapphire Stone Wall",
-    "avg_color": [
-      41,
-      47,
-      58
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Sapphire_Stone_Wall.png"
-  },
-  {
-    "name": "Topaz Stone Wall",
-    "avg_color": [
-      67,
-      63,
-      53
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Topaz_Stone_Wall.png"
-  },
-  {
     "name": "Gray Brick",
     "avg_color": [
       76,
@@ -1197,15 +1117,6 @@
     "sprite_url": "https://terraria.wiki.gg/images/Heavenforge_Brick.png"
   },
   {
-    "name": "Shimmer",
-    "avg_color": [
-      191,
-      137,
-      243
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Shimmer.gif"
-  },
-  {
     "name": "Lunar Rust Brick",
     "avg_color": [
       91,
@@ -1420,15 +1331,6 @@
       40
     ],
     "sprite_url": "https://terraria.wiki.gg/images/Gothic_Brick.png"
-  },
-  {
-    "name": "Bone",
-    "avg_color": [
-      75,
-      74,
-      55
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Bone.png"
   },
   {
     "name": "Lihzahrd Brick",
@@ -1890,24 +1792,6 @@
     "sprite_url": "https://terraria.wiki.gg/images/Librarian_Block.png"
   },
   {
-    "name": "Living Frost Fire Block",
-    "avg_color": [
-      58,
-      203,
-      232
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Living_Frost_Fire_Block.png"
-  },
-  {
-    "name": "Living Ichor Block",
-    "avg_color": [
-      248,
-      209,
-      61
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Living_Ichor_Block.png"
-  },
-  {
     "name": "Midnight Confetti Block",
     "avg_color": [
       53,
@@ -1988,15 +1872,7 @@
     ],
     "sprite_url": "https://terraria.wiki.gg/images/Ruby_Gemspark_Block.png"
   },
-  {
-    "name": "Sandfall Block",
-    "avg_color": [
-      88,
-      109,
-      102
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Sandfall_Block.png"
-  },
+
   {
     "name": "Sandstone Slab",
     "avg_color": [
@@ -2078,15 +1954,7 @@
     ],
     "sprite_url": "https://terraria.wiki.gg/images/Snow_Cloud.png"
   },
-  {
-    "name": "Snowfall Block",
-    "avg_color": [
-      65,
-      96,
-      113
-    ],
-    "sprite_url": "https://terraria.wiki.gg/images/Snowfall_Block.png"
-  },
+
   {
     "name": "Solar Fragment Block",
     "avg_color": [
@@ -2124,7 +1992,7 @@
     "sprite_url": "https://terraria.wiki.gg/images/Stardust_Fragment_Block.png"
   },
   {
-    "name": "Stone Accent Slab",
+    "name": "Stone Slab",
     "avg_color": [
       73,
       73,
@@ -2133,7 +2001,7 @@
     "sprite_url": "https://terraria.wiki.gg/images/Stone_Slab.png"
   },
   {
-    "name": "Stone Slab",
+    "name": "Stone Accent Slab",
     "avg_color": [
       73,
       73,
