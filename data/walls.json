@@ -1,0 +1,4142 @@
+[
+  {
+    "name": "Bone Block Wall",
+    "avg_color": [
+      59,
+      58,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bone_Block_Wall.png"
+  },
+  {
+    "name": "Bone",
+    "avg_color": [
+      75,
+      74,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bone.png"
+  },
+  {
+    "name": "Blue Brick Wall",
+    "avg_color": [
+      36,
+      39,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Brick_Wall.png"
+  },
+  {
+    "name": "Blue Brick",
+    "avg_color": [
+      47,
+      56,
+      70
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Brick.png"
+  },
+  {
+    "name": "Blue Slab Wall",
+    "avg_color": [
+      25,
+      32,
+      40
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Slab_Wall.png"
+  },
+  {
+    "name": "Blue Tiled Wall",
+    "avg_color": [
+      37,
+      36,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Tiled_Wall.png"
+  },
+  {
+    "name": "Green Brick Wall",
+    "avg_color": [
+      46,
+      57,
+      58
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Brick_Wall.png"
+  },
+  {
+    "name": "Green Brick",
+    "avg_color": [
+      53,
+      67,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Brick.png"
+  },
+  {
+    "name": "Green Slab Wall",
+    "avg_color": [
+      43,
+      54,
+      51
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Slab_Wall.png"
+  },
+  {
+    "name": "Green Tiled Wall",
+    "avg_color": [
+      42,
+      50,
+      56
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Tiled_Wall.png"
+  },
+  {
+    "name": "Pink Brick Wall",
+    "avg_color": [
+      71,
+      43,
+      66
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pink_Brick_Wall.png"
+  },
+  {
+    "name": "Pink Brick",
+    "avg_color": [
+      91,
+      47,
+      71
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pink_Brick.png"
+  },
+  {
+    "name": "Pink Slab Wall",
+    "avg_color": [
+      61,
+      39,
+      62
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pink_Slab_Wall.png"
+  },
+  {
+    "name": "Pink Tiled Wall",
+    "avg_color": [
+      58,
+      35,
+      48
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pink_Tiled_Wall.png"
+  },
+  {
+    "name": "Wrought Iron Fence",
+    "avg_color": [
+      64,
+      64,
+      64
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Wrought_Iron_Fence.png"
+  },
+  {
+    "name": "Iron Bar",
+    "avg_color": [
+      143,
+      124,
+      115
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Iron_Bar.png"
+  },
+  {
+    "name": "Iron Fence",
+    "avg_color": [
+      85,
+      85,
+      85
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Iron_Fence.png"
+  },
+  {
+    "name": "Lead Fence",
+    "avg_color": [
+      39,
+      39,
+      39
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lead_Fence.png"
+  },
+  {
+    "name": "Lead Bar",
+    "avg_color": [
+      90,
+      107,
+      117
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lead_Bar.png"
+  },
+  {
+    "name": "Living Leaf Wall",
+    "avg_color": [
+      1,
+      46,
+      17
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Living_Leaf_Wall.png"
+  },
+  {
+    "name": "Wood",
+    "avg_color": [
+      113,
+      82,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Wood.png"
+  },
+  {
+    "name": "Living Wood Wall",
+    "avg_color": [
+      42,
+      26,
+      17
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Living_Wood_Wall.png"
+  },
+  {
+    "name": "Living Wood",
+    "avg_color": [
+      106,
+      76,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Living_Wood.png"
+  },
+  {
+    "name": "Planked Wall",
+    "avg_color": [
+      49,
+      40,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Planked_Wall.png"
+  },
+  {
+    "name": "Stone Block",
+    "avg_color": [
+      82,
+      82,
+      82
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stone_Block.png"
+  },
+  {
+    "name": "Crescent Wall",
+    "avg_color": [
+      45,
+      58,
+      72
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crescent_Wall.png"
+  },
+  {
+    "name": "Disc Wall",
+    "avg_color": [
+      70,
+      26,
+      0
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Disc_Wall.png"
+  },
+  {
+    "name": "Shimmer",
+    "avg_color": [
+      191,
+      137,
+      243
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shimmer.gif"
+  },
+  {
+    "name": "Adamantite Beam Wall",
+    "avg_color": [
+      80,
+      13,
+      36
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Adamantite_Beam_Wall.png"
+  },
+  {
+    "name": "Adamantite Beam",
+    "avg_color": [
+      83,
+      17,
+      35
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Adamantite_Beam.png"
+  },
+  {
+    "name": "Aetherium Brick Wall",
+    "avg_color": [
+      47,
+      84,
+      111
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Aetherium_Brick_Wall.png"
+  },
+  {
+    "name": "Aetherium Brick",
+    "avg_color": [
+      178,
+      173,
+      197
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Aetherium_Brick.png"
+  },
+  {
+    "name": "Aetherium Wall",
+    "avg_color": [
+      56,
+      84,
+      104
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Aetherium_Wall.png"
+  },
+  {
+    "name": "Aetherium Block",
+    "avg_color": [
+      211,
+      195,
+      202
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Aetherium_Block.png"
+  },
+  {
+    "name": "Amber Gemspark Wall",
+    "avg_color": [
+      149,
+      63,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amber_Gemspark_Wall.png"
+  },
+  {
+    "name": "Amber Gemspark Block",
+    "avg_color": [
+      180,
+      89,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amber_Gemspark_Block.png"
+  },
+  {
+    "name": "Amethyst Gemspark Wall",
+    "avg_color": [
+      109,
+      34,
+      149
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amethyst_Gemspark_Wall.png"
+  },
+  {
+    "name": "Amethyst Gemspark Block",
+    "avg_color": [
+      146,
+      50,
+      181
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amethyst_Gemspark_Block.png"
+  },
+  {
+    "name": "Ancient Blue Brick Wall",
+    "avg_color": [
+      34,
+      35,
+      48
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Blue_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Blue Brick",
+    "avg_color": [
+      68,
+      69,
+      114
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Blue_Brick.png"
+  },
+  {
+    "name": "Ancient Cobalt Brick Wall",
+    "avg_color": [
+      10,
+      37,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Cobalt_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Cobalt Brick",
+    "avg_color": [
+      41,
+      74,
+      94
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Cobalt_Brick.png"
+  },
+  {
+    "name": "Ancient Copper Brick Wall",
+    "avg_color": [
+      80,
+      45,
+      16
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Copper_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Copper Brick",
+    "avg_color": [
+      110,
+      74,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Copper_Brick.png"
+  },
+  {
+    "name": "Ancient Gold Brick Wall",
+    "avg_color": [
+      67,
+      51,
+      8
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Gold_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Gold Brick",
+    "avg_color": [
+      108,
+      98,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Gold_Brick.png"
+  },
+  {
+    "name": "Ancient Green Brick Wall",
+    "avg_color": [
+      32,
+      41,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Green_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Green Brick",
+    "avg_color": [
+      55,
+      97,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Green_Brick.png"
+  },
+  {
+    "name": "Ancient Hellstone Brick Wall",
+    "avg_color": [
+      49,
+      30,
+      29
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Hellstone_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Hellstone Brick",
+    "avg_color": [
+      90,
+      61,
+      58
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Hellstone_Brick.png"
+  },
+  {
+    "name": "Ancient Mythril Brick Wall",
+    "avg_color": [
+      32,
+      50,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Mythril_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Mythril Brick",
+    "avg_color": [
+      84,
+      99,
+      74
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Mythril_Brick.png"
+  },
+  {
+    "name": "Ancient Obsidian Brick Wall",
+    "avg_color": [
+      36,
+      38,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Obsidian_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Obsidian Brick",
+    "avg_color": [
+      64,
+      62,
+      91
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Obsidian_Brick.png"
+  },
+  {
+    "name": "Ancient Pink Brick Wall",
+    "avg_color": [
+      55,
+      23,
+      44
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Pink_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Pink Brick",
+    "avg_color": [
+      95,
+      48,
+      76
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Pink_Brick.png"
+  },
+  {
+    "name": "Ancient Silver Brick Wall",
+    "avg_color": [
+      45,
+      50,
+      52
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Silver_Brick_Wall.png"
+  },
+  {
+    "name": "Ancient Silver Brick",
+    "avg_color": [
+      90,
+      97,
+      98
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ancient_Silver_Brick.png"
+  },
+  {
+    "name": "Aquarium Wall",
+    "avg_color": [
+      23,
+      45,
+      84
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Aquarium_Wall.png"
+  },
+  {
+    "name": "Aquarium Block",
+    "avg_color": [
+      74,
+      107,
+      137
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Aquarium_Block.png"
+  },
+  {
+    "name": "Argon Moss Brick Wall",
+    "avg_color": [
+      58,
+      6,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Argon_Moss_Brick_Wall.png"
+  },
+  {
+    "name": "Argon Moss Brick",
+    "avg_color": [
+      169,
+      35,
+      121
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Argon_Moss_Brick.png"
+  },
+  {
+    "name": "Ash Wood Fence",
+    "avg_color": [
+      77,
+      67,
+      80
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ash_Wood_Fence.png"
+  },
+  {
+    "name": "Ash Wood",
+    "avg_color": [
+      102,
+      88,
+      99
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ash_Wood.png"
+  },
+  {
+    "name": "Ash Wood Wall",
+    "avg_color": [
+      48,
+      44,
+      56
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ash_Wood_Wall.png"
+  },
+  {
+    "name": "Astra Brick Wall",
+    "avg_color": [
+      27,
+      41,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Astra_Brick_Wall.png"
+  },
+  {
+    "name": "Astra Brick",
+    "avg_color": [
+      37,
+      64,
+      101
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Astra_Brick.png"
+  },
+  {
+    "name": "Bamboo Fence",
+    "avg_color": [
+      62,
+      72,
+      16
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bamboo_Fence.png"
+  },
+  {
+    "name": "Bamboo",
+    "avg_color": [
+      84,
+      102,
+      20
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bamboo.png"
+  },
+  {
+    "name": "Bamboo Wall",
+    "avg_color": [
+      26,
+      53,
+      10
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bamboo_Wall.png"
+  },
+  {
+    "name": "Blue Dynasty Wall",
+    "avg_color": [
+      149,
+      121,
+      97
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Dynasty_Wall.png"
+  },
+  {
+    "name": "Dynasty Wood",
+    "avg_color": [
+      93,
+      51,
+      22
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Dynasty_Wood.png"
+  },
+  {
+    "name": "Blue Stained Glass",
+    "avg_color": [
+      57,
+      83,
+      141
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Stained_Glass.png"
+  },
+  {
+    "name": "Glass Wall",
+    "avg_color": [
+      34,
+      60,
+      72
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Glass_Wall.png"
+  },
+  {
+    "name": "Blue Starry Wall",
+    "avg_color": [
+      28,
+      51,
+      76
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Starry_Wall.png"
+  },
+  {
+    "name": "Blue Starry Block",
+    "avg_color": [
+      48,
+      72,
+      93
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Starry_Block.png"
+  },
+  {
+    "name": "Boreal Wood Fence",
+    "avg_color": [
+      72,
+      60,
+      53
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Boreal_Wood_Fence.png"
+  },
+  {
+    "name": "Boreal Wood",
+    "avg_color": [
+      77,
+      64,
+      57
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Boreal_Wood.png"
+  },
+  {
+    "name": "Boreal Wood Wall",
+    "avg_color": [
+      65,
+      55,
+      48
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Boreal_Wood_Wall.png"
+  },
+  {
+    "name": "Boulder Wall",
+    "avg_color": [
+      43,
+      43,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Boulder_Wall.png"
+  },
+  {
+    "name": "Boulder Block",
+    "avg_color": [
+      93,
+      93,
+      93
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Boulder_Block.png"
+  },
+  {
+    "name": "Bubblegum Block Wall",
+    "avg_color": [
+      124,
+      40,
+      119
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bubblegum_Block_Wall.png"
+  },
+  {
+    "name": "Bubblegum Block",
+    "avg_color": [
+      167,
+      20,
+      151
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bubblegum_Block.png"
+  },
+  {
+    "name": "Cactus Wall",
+    "avg_color": [
+      40,
+      77,
+      25
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cactus_Wall.png"
+  },
+  {
+    "name": "Cactus",
+    "avg_color": [
+      52,
+      93,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cactus.png"
+  },
+  {
+    "name": "Candy Cane Wall",
+    "avg_color": [
+      97,
+      48,
+      58
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Candy_Cane_Wall.png"
+  },
+  {
+    "name": "Candy Cane Block",
+    "avg_color": [
+      134,
+      65,
+      82
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Candy_Cane_Block.png"
+  },
+  {
+    "name": "Chlorophyte Brick Wall",
+    "avg_color": [
+      22,
+      61,
+      27
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Chlorophyte_Brick_Wall.png"
+  },
+  {
+    "name": "Chlorophyte Brick",
+    "avg_color": [
+      36,
+      76,
+      44
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Chlorophyte_Brick.png"
+  },
+  {
+    "name": "Cloud Wall",
+    "avg_color": [
+      209,
+      215,
+      218
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cloud_Wall.png"
+  },
+  {
+    "name": "Cloud",
+    "avg_color": [
+      185,
+      225,
+      243
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cloud.png"
+  },
+  {
+    "name": "Cobalt Brick Wall",
+    "avg_color": [
+      13,
+      56,
+      85
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cobalt_Brick_Wall.png"
+  },
+  {
+    "name": "Cobalt Brick",
+    "avg_color": [
+      15,
+      76,
+      115
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cobalt_Brick.png"
+  },
+  {
+    "name": "Cog Wall",
+    "avg_color": [
+      51,
+      49,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cog_Wall.png"
+  },
+  {
+    "name": "Cog",
+    "avg_color": [
+      137,
+      128,
+      86
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cog.png"
+  },
+  {
+    "name": "Confetti Wall",
+    "avg_color": [
+      33,
+      53,
+      58
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Confetti_Wall.png"
+  },
+  {
+    "name": "Confetti Block",
+    "avg_color": [
+      65,
+      90,
+      111
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Confetti_Block.png"
+  },
+  {
+    "name": "Copper Brick Wall",
+    "avg_color": [
+      78,
+      40,
+      14
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Copper_Brick_Wall.png"
+  },
+  {
+    "name": "Copper Brick",
+    "avg_color": [
+      146,
+      78,
+      38
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Copper_Brick.png"
+  },
+  {
+    "name": "Copper Plating Wall",
+    "avg_color": [
+      84,
+      41,
+      14
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Copper_Plating_Wall.png"
+  },
+  {
+    "name": "Copper Plating",
+    "avg_color": [
+      97,
+      46,
+      14
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Copper_Plating.png"
+  },
+  {
+    "name": "Cosmic Ember Brick Wall",
+    "avg_color": [
+      50,
+      44,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cosmic_Ember_Brick_Wall.png"
+  },
+  {
+    "name": "Cosmic Ember Brick",
+    "avg_color": [
+      66,
+      73,
+      65
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cosmic_Ember_Brick.png"
+  },
+  {
+    "name": "Moonplate Block",
+    "avg_color": [
+      99,
+      112,
+      124
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Moonplate_Block.png"
+  },
+  {
+    "name": "Crimstone Brick Wall",
+    "avg_color": [
+      87,
+      38,
+      39
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimstone_Brick_Wall.png"
+  },
+  {
+    "name": "Crimstone Brick",
+    "avg_color": [
+      120,
+      59,
+      60
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimstone_Brick.png"
+  },
+  {
+    "name": "Crimtane Brick Wall",
+    "avg_color": [
+      53,
+      33,
+      39
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimtane_Brick_Wall.png"
+  },
+  {
+    "name": "Crimtane Brick",
+    "avg_color": [
+      58,
+      37,
+      40
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimtane_Brick.png"
+  },
+  {
+    "name": "Cryocore Brick Wall",
+    "avg_color": [
+      21,
+      54,
+      60
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cryocore_Brick_Wall.png"
+  },
+  {
+    "name": "Cryocore Brick",
+    "avg_color": [
+      43,
+      80,
+      99
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cryocore_Brick.png"
+  },
+  {
+    "name": "Crystal Block Wall",
+    "avg_color": [
+      39,
+      53,
+      111
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crystal_Block_Wall.png"
+  },
+  {
+    "name": "Crystal Block",
+    "avg_color": [
+      81,
+      54,
+      114
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crystal_Block.png"
+  },
+  {
+    "name": "Dark Celestial Brick Wall",
+    "avg_color": [
+      34,
+      38,
+      65
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Dark_Celestial_Brick_Wall.png"
+  },
+  {
+    "name": "Dark Celestial Brick",
+    "avg_color": [
+      61,
+      82,
+      103
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Dark_Celestial_Brick.png"
+  },
+  {
+    "name": "Demonite Brick Wall",
+    "avg_color": [
+      38,
+      38,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Demonite_Brick_Wall.png"
+  },
+  {
+    "name": "Demonite Brick",
+    "avg_color": [
+      44,
+      45,
+      72
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Demonite_Brick.png"
+  },
+  {
+    "name": "Diamond Gemspark Wall",
+    "avg_color": [
+      129,
+      131,
+      146
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Diamond_Gemspark_Wall.png"
+  },
+  {
+    "name": "Diamond Gemspark Block",
+    "avg_color": [
+      161,
+      163,
+      178
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Diamond_Gemspark_Block.png"
+  },
+  {
+    "name": "Dirt Wall",
+    "avg_color": [
+      89,
+      63,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Dirt_Wall.png"
+  },
+  {
+    "name": "Dirt Block",
+    "avg_color": [
+      108,
+      77,
+      56
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Dirt_Block.png"
+  },
+  {
+    "name": "Sunplate Block",
+    "avg_color": [
+      155,
+      113,
+      29
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sunplate_Block.png"
+  },
+  {
+    "name": "Easter Wall",
+    "avg_color": [
+      118,
+      74,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Easter_Wall.png"
+  },
+  {
+    "name": "Easter Block",
+    "avg_color": [
+      151,
+      87,
+      89
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Easter_Block.png"
+  },
+  {
+    "name": "Ebonstone Brick Wall",
+    "avg_color": [
+      50,
+      54,
+      76
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonstone_Brick_Wall.png"
+  },
+  {
+    "name": "Ebonstone Brick",
+    "avg_color": [
+      69,
+      76,
+      104
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonstone_Brick.png"
+  },
+  {
+    "name": "Ebonwood Fence",
+    "avg_color": [
+      73,
+      69,
+      86
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonwood_Fence.png"
+  },
+  {
+    "name": "Ebonwood",
+    "avg_color": [
+      80,
+      75,
+      94
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonwood.png"
+  },
+  {
+    "name": "Ebonwood Wall",
+    "avg_color": [
+      52,
+      50,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonwood_Wall.png"
+  },
+  {
+    "name": "Echo Wall",
+    "avg_color": [
+      35,
+      92,
+      117
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Echo_Wall.png"
+  },
+  {
+    "name": "Echo Block",
+    "avg_color": [
+      64,
+      141,
+      166
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Echo_Block.png"
+  },
+  {
+    "name": "Emerald Gemspark Wall",
+    "avg_color": [
+      41,
+      149,
+      38
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Emerald_Gemspark_Wall.png"
+  },
+  {
+    "name": "Emerald Gemspark Block",
+    "avg_color": [
+      56,
+      181,
+      56
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Emerald_Gemspark_Block.png"
+  },
+  {
+    "name": "Fallen Star Wall",
+    "avg_color": [
+      88,
+      51,
+      92
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Fallen_Star_Wall.png"
+  },
+  {
+    "name": "Fallen Star Block",
+    "avg_color": [
+      150,
+      128,
+      32
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Fallen_Star_Block.png"
+  },
+  {
+    "name": "Feywood Wall",
+    "avg_color": [
+      63,
+      38,
+      25
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Feywood_Wall.png"
+  },
+  {
+    "name": "Feywood",
+    "avg_color": [
+      115,
+      72,
+      63
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Feywood.png"
+  },
+  {
+    "name": "Flesh Block Wall",
+    "avg_color": [
+      61,
+      14,
+      17
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Flesh_Block_Wall.png"
+  },
+  {
+    "name": "Flesh Block",
+    "avg_color": [
+      105,
+      20,
+      29
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Flesh_Block.png"
+  },
+  {
+    "name": "Flinx Fur Wall",
+    "avg_color": [
+      96,
+      80,
+      110
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Flinx_Fur_Wall.png"
+  },
+  {
+    "name": "Flinx Fur Block",
+    "avg_color": [
+      147,
+      125,
+      166
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Flinx_Fur_Block.png"
+  },
+  {
+    "name": "Forbidden Wall",
+    "avg_color": [
+      60,
+      41,
+      5
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Forbidden_Wall.png"
+  },
+  {
+    "name": "Forbidden Block",
+    "avg_color": [
+      151,
+      122,
+      29
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Forbidden_Block.png"
+  },
+  {
+    "name": "Glass",
+    "avg_color": [
+      70,
+      103,
+      120
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Glass.png"
+  },
+  {
+    "name": "Gold Brick Wall",
+    "avg_color": [
+      69,
+      56,
+      14
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gold_Brick_Wall.png"
+  },
+  {
+    "name": "Gold Brick",
+    "avg_color": [
+      90,
+      76,
+      24
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gold_Brick.png"
+  },
+  {
+    "name": "Gold Starry Wall",
+    "avg_color": [
+      41,
+      53,
+      67
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gold_Starry_Wall.png"
+  },
+  {
+    "name": "Gold Starry Block",
+    "avg_color": [
+      53,
+      73,
+      88
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gold_Starry_Block.png"
+  },
+  {
+    "name": "Gothic Brick Wall",
+    "avg_color": [
+      15,
+      17,
+      15
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gothic_Brick_Wall.png"
+  },
+  {
+    "name": "Gothic Brick",
+    "avg_color": [
+      39,
+      47,
+      40
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gothic_Brick.png"
+  },
+  {
+    "name": "Granite Wall",
+    "avg_color": [
+      9,
+      8,
+      20
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Granite_Wall.png"
+  },
+  {
+    "name": "Granite Block",
+    "avg_color": [
+      31,
+      34,
+      85
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Granite_Block.png"
+  },
+  {
+    "name": "Gray Brick Wall",
+    "avg_color": [
+      43,
+      43,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gray_Brick_Wall.png"
+  },
+  {
+    "name": "Gray Brick",
+    "avg_color": [
+      76,
+      76,
+      76
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gray_Brick.png"
+  },
+  {
+    "name": "Gray Stucco Wall",
+    "avg_color": [
+      79,
+      80,
+      76
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gray_Stucco_Wall.png"
+  },
+  {
+    "name": "Gray Stucco",
+    "avg_color": [
+      124,
+      124,
+      116
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Gray_Stucco.png"
+  },
+  {
+    "name": "Green Candy Cane Wall",
+    "avg_color": [
+      46,
+      99,
+      66
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Candy_Cane_Wall.png"
+  },
+  {
+    "name": "Green Candy Cane Block",
+    "avg_color": [
+      59,
+      140,
+      101
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Candy_Cane_Block.png"
+  },
+  {
+    "name": "Green Stained Glass",
+    "avg_color": [
+      77,
+      132,
+      96
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Stained_Glass.png"
+  },
+  {
+    "name": "Green Stucco Wall",
+    "avg_color": [
+      50,
+      76,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Stucco_Wall.png"
+  },
+  {
+    "name": "Green Stucco",
+    "avg_color": [
+      73,
+      114,
+      90
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Stucco.png"
+  },
+  {
+    "name": "Hallowed Brick Wall",
+    "avg_color": [
+      50,
+      55,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hallowed_Brick_Wall.png"
+  },
+  {
+    "name": "Hallowed Brick",
+    "avg_color": [
+      161,
+      120,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hallowed_Brick.png"
+  },
+  {
+    "name": "Harpy Wall",
+    "avg_color": [
+      22,
+      65,
+      100
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Harpy_Wall.png"
+  },
+  {
+    "name": "Harpy Block",
+    "avg_color": [
+      58,
+      56,
+      94
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Harpy_Block.png"
+  },
+  {
+    "name": "Hay Wall",
+    "avg_color": [
+      59,
+      46,
+      16
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hay_Wall.png"
+  },
+  {
+    "name": "Hay",
+    "avg_color": [
+      126,
+      105,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hay.png"
+  },
+  {
+    "name": "Heavenforge Brick Wall",
+    "avg_color": [
+      99,
+      102,
+      111
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Heavenforge_Brick_Wall.png"
+  },
+  {
+    "name": "Heavenforge Brick",
+    "avg_color": [
+      128,
+      136,
+      152
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Heavenforge_Brick.png"
+  },
+  {
+    "name": "Helium Moss Brick Wall",
+    "avg_color": [
+      32,
+      17,
+      0
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Helium_Moss_Brick_Wall.gif"
+  },
+  {
+    "name": "Helium Moss Brick",
+    "avg_color": [
+      80,
+      41,
+      0
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Helium_Moss_Brick.gif"
+  },
+  {
+    "name": "Hellstone Brick Wall",
+    "avg_color": [
+      63,
+      37,
+      35
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hellstone_Brick_Wall.png"
+  },
+  {
+    "name": "Hellstone Brick",
+    "avg_color": [
+      92,
+      30,
+      26
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hellstone_Brick.png"
+  },
+  {
+    "name": "Hive Wall",
+    "avg_color": [
+      108,
+      70,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hive_Wall.png"
+  },
+  {
+    "name": "Hive",
+    "avg_color": [
+      112,
+      61,
+      10
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hive.png"
+  },
+  {
+    "name": "Ice Brick Wall",
+    "avg_color": [
+      70,
+      93,
+      117
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ice_Brick_Wall.png"
+  },
+  {
+    "name": "Ice Brick",
+    "avg_color": [
+      87,
+      129,
+      189
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ice_Brick.png"
+  },
+  {
+    "name": "Iridescent Brick Wall",
+    "avg_color": [
+      33,
+      27,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Iridescent_Brick_Wall.png"
+  },
+  {
+    "name": "Iridescent Brick",
+    "avg_color": [
+      47,
+      37,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Iridescent_Brick.png"
+  },
+  {
+    "name": "Iron Brick Wall",
+    "avg_color": [
+      59,
+      48,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Iron_Brick_Wall.png"
+  },
+  {
+    "name": "Iron Brick",
+    "avg_color": [
+      85,
+      70,
+      67
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Iron_Brick.png"
+  },
+  {
+    "name": "Jellyfish Wall",
+    "avg_color": [
+      46,
+      62,
+      118
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Jellyfish_Wall.png"
+  },
+  {
+    "name": "Jellyfish Block",
+    "avg_color": [
+      73,
+      100,
+      177
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Jellyfish_Block.png"
+  },
+  {
+    "name": "Krypton Moss Brick Wall",
+    "avg_color": [
+      13,
+      49,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Krypton_Moss_Brick_Wall.png"
+  },
+  {
+    "name": "Krypton Moss Brick",
+    "avg_color": [
+      57,
+      165,
+      75
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Krypton_Moss_Brick.png"
+  },
+  {
+    "name": "Large Bamboo Wall",
+    "avg_color": [
+      34,
+      63,
+      20
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Large_Bamboo_Wall.png"
+  },
+  {
+    "name": "Lava Moss Brick Wall",
+    "avg_color": [
+      70,
+      15,
+      1
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lava_Moss_Brick_Wall.png"
+  },
+  {
+    "name": "Lava Moss Brick",
+    "avg_color": [
+      185,
+      59,
+      16
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lava_Moss_Brick.png"
+  },
+  {
+    "name": "Lead Brick Wall",
+    "avg_color": [
+      33,
+      41,
+      51
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lead_Brick_Wall.png"
+  },
+  {
+    "name": "Lead Brick",
+    "avg_color": [
+      51,
+      60,
+      69
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lead_Brick.png"
+  },
+  {
+    "name": "Lesion Block Wall",
+    "avg_color": [
+      58,
+      40,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lesion_Block_Wall.png"
+  },
+  {
+    "name": "Lesion Block",
+    "avg_color": [
+      77,
+      61,
+      52
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lesion_Block.png"
+  },
+  {
+    "name": "Librarian Wall",
+    "avg_color": [
+      27,
+      19,
+      19
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Librarian_Wall.png"
+  },
+  {
+    "name": "Librarian Block",
+    "avg_color": [
+      79,
+      72,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Librarian_Block.png"
+  },
+  {
+    "name": "Lihzahrd Brick Wall",
+    "avg_color": [
+      24,
+      7,
+      10
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lihzahrd_Brick_Wall.png"
+  },
+  {
+    "name": "Lihzahrd Brick",
+    "avg_color": [
+      67,
+      39,
+      22
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lihzahrd_Brick.png"
+  },
+  {
+    "name": "Luminite Brick Wall",
+    "avg_color": [
+      50,
+      57,
+      53
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Luminite_Brick_Wall.png"
+  },
+  {
+    "name": "Luminite Brick",
+    "avg_color": [
+      82,
+      80,
+      76
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Luminite_Brick.png"
+  },
+  {
+    "name": "Lunar Rust Brick Wall",
+    "avg_color": [
+      51,
+      45,
+      51
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lunar_Rust_Brick_Wall.png"
+  },
+  {
+    "name": "Lunar Rust Brick",
+    "avg_color": [
+      91,
+      70,
+      82
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lunar_Rust_Brick.png"
+  },
+  {
+    "name": "Marble Wall",
+    "avg_color": [
+      111,
+      117,
+      133
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Marble_Wall.png"
+  },
+  {
+    "name": "Marble Block",
+    "avg_color": [
+      97,
+      102,
+      116
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Marble_Block.png"
+  },
+  {
+    "name": "Martian Conduit Wall",
+    "avg_color": [
+      44,
+      54,
+      67
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Martian_Conduit_Wall.png"
+  },
+  {
+    "name": "Martian Conduit Plating",
+    "avg_color": [
+      114,
+      131,
+      146
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Martian_Conduit_Plating.png"
+  },
+  {
+    "name": "Mercury Brick Wall",
+    "avg_color": [
+      45,
+      50,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mercury_Brick_Wall.png"
+  },
+  {
+    "name": "Mercury Brick",
+    "avg_color": [
+      75,
+      80,
+      86
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mercury_Brick.png"
+  },
+  {
+    "name": "Meteorite Brick Wall",
+    "avg_color": [
+      75,
+      47,
+      60
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Meteorite_Brick_Wall.png"
+  },
+  {
+    "name": "Meteorite Brick",
+    "avg_color": [
+      145,
+      68,
+      31
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Meteorite_Brick.png"
+  },
+  {
+    "name": "Midnight Confetti Wall",
+    "avg_color": [
+      32,
+      51,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Midnight_Confetti_Wall.png"
+  },
+  {
+    "name": "Midnight Confetti Block",
+    "avg_color": [
+      53,
+      72,
+      90
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Midnight_Confetti_Block.png"
+  },
+  {
+    "name": "Mudstone Brick Wall",
+    "avg_color": [
+      43,
+      35,
+      37
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mudstone_Brick_Wall.png"
+  },
+  {
+    "name": "Mudstone Brick",
+    "avg_color": [
+      68,
+      51,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mudstone_Brick.png"
+  },
+  {
+    "name": "Multicolored Stained Glass",
+    "avg_color": [
+      137,
+      76,
+      74
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Multicolored_Stained_Glass.png"
+  },
+  {
+    "name": "Mushroom Wall",
+    "avg_color": [
+      37,
+      37,
+      85
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mushroom_Wall.png"
+  },
+  {
+    "name": "Glowing Mushroom",
+    "avg_color": [
+      113,
+      112,
+      126
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Glowing_Mushroom.png"
+  },
+  {
+    "name": "Mythril Brick Wall",
+    "avg_color": [
+      17,
+      45,
+      44
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mythril_Brick_Wall.png"
+  },
+  {
+    "name": "Mythril Brick",
+    "avg_color": [
+      54,
+      94,
+      89
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mythril_Brick.png"
+  },
+  {
+    "name": "Nebula Brick Wall",
+    "avg_color": [
+      34,
+      35,
+      50
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Nebula_Brick_Wall.png"
+  },
+  {
+    "name": "Nebula Brick",
+    "avg_color": [
+      114,
+      110,
+      176
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Nebula_Brick.png"
+  },
+  {
+    "name": "Neon Moss Brick Wall",
+    "avg_color": [
+      32,
+      7,
+      62
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Neon_Moss_Brick_Wall.png"
+  },
+  {
+    "name": "Neon Moss Brick",
+    "avg_color": [
+      113,
+      35,
+      133
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Neon_Moss_Brick.png"
+  },
+  {
+    "name": "Obsidian Brick Wall",
+    "avg_color": [
+      11,
+      8,
+      8
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Obsidian_Brick_Wall.png"
+  },
+  {
+    "name": "Obsidian Brick",
+    "avg_color": [
+      33,
+      30,
+      32
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Obsidian_Brick.png"
+  },
+  {
+    "name": "Office Wall",
+    "avg_color": [
+      50,
+      35,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Office_Wall.png"
+  },
+  {
+    "name": "Office Block",
+    "avg_color": [
+      90,
+      57,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Office_Block.png"
+  },
+  {
+    "name": "Offline Amber Gemspark Wall",
+    "avg_color": [
+      98,
+      52,
+      30
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Offline_Amber_Gemspark_Wall.png"
+  },
+  {
+    "name": "Offline Amethyst Gemspark Wall",
+    "avg_color": [
+      68,
+      30,
+      98
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Offline_Amethyst_Gemspark_Wall.png"
+  },
+  {
+    "name": "Offline Diamond Gemspark Wall",
+    "avg_color": [
+      54,
+      56,
+      75
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Offline_Diamond_Gemspark_Wall.png"
+  },
+  {
+    "name": "Offline Emerald Gemspark Wall",
+    "avg_color": [
+      30,
+      98,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Offline_Emerald_Gemspark_Wall.png"
+  },
+  {
+    "name": "Offline Ruby Gemspark Wall",
+    "avg_color": [
+      98,
+      30,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Offline_Ruby_Gemspark_Wall.png"
+  },
+  {
+    "name": "Ruby Gemspark Block",
+    "avg_color": [
+      181,
+      19,
+      29
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ruby_Gemspark_Block.png"
+  },
+  {
+    "name": "Offline Sapphire Gemspark Wall",
+    "avg_color": [
+      30,
+      31,
+      98
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Offline_Sapphire_Gemspark_Wall.png"
+  },
+  {
+    "name": "Sapphire Gemspark Block",
+    "avg_color": [
+      19,
+      43,
+      181
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sapphire_Gemspark_Block.png"
+  },
+  {
+    "name": "Offline Topaz Gemspark Wall",
+    "avg_color": [
+      97,
+      93,
+      30
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Offline_Topaz_Gemspark_Wall.png"
+  },
+  {
+    "name": "Topaz Gemspark Block",
+    "avg_color": [
+      177,
+      170,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Topaz_Gemspark_Block.png"
+  },
+  {
+    "name": "Orange Stained Glass",
+    "avg_color": [
+      187,
+      117,
+      60
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Orange_Stained_Glass.png"
+  },
+  {
+    "name": "Palladium Column Wall",
+    "avg_color": [
+      82,
+      30,
+      13
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Palladium_Column_Wall.png"
+  },
+  {
+    "name": "Palladium Column",
+    "avg_color": [
+      122,
+      43,
+      23
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Palladium_Column.png"
+  },
+  {
+    "name": "Palm Wood Fence",
+    "avg_color": [
+      111,
+      86,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Palm_Wood_Fence.png"
+  },
+  {
+    "name": "Palm Wood",
+    "avg_color": [
+      114,
+      90,
+      57
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Palm_Wood.png"
+  },
+  {
+    "name": "Palm Wood Wall",
+    "avg_color": [
+      91,
+      67,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Palm_Wood_Wall.png"
+  },
+  {
+    "name": "Pearlstone Brick Wall",
+    "avg_color": [
+      73,
+      68,
+      72
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlstone_Brick_Wall.png"
+  },
+  {
+    "name": "Pearlstone Brick",
+    "avg_color": [
+      123,
+      113,
+      122
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlstone_Brick.png"
+  },
+  {
+    "name": "Pearlwood Fence",
+    "avg_color": [
+      113,
+      102,
+      78
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlwood_Fence.png"
+  },
+  {
+    "name": "Pearlwood",
+    "avg_color": [
+      109,
+      99,
+      75
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlwood.png"
+  },
+  {
+    "name": "Pearlwood Wall",
+    "avg_color": [
+      66,
+      60,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlwood_Wall.png"
+  },
+  {
+    "name": "Pine Tree Wall",
+    "avg_color": [
+      6,
+      33,
+      30
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pine_Tree_Wall.png"
+  },
+  {
+    "name": "Pine Tree Block",
+    "avg_color": [
+      18,
+      74,
+      57
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pine_Tree_Block.png"
+  },
+  {
+    "name": "Pine Wood Wall",
+    "avg_color": [
+      56,
+      33,
+      24
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pine_Wood_Wall.png"
+  },
+  {
+    "name": "Platinum Brick Wall",
+    "avg_color": [
+      54,
+      59,
+      71
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Platinum_Brick_Wall.png"
+  },
+  {
+    "name": "Platinum Brick",
+    "avg_color": [
+      126,
+      142,
+      154
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Platinum_Brick.png"
+  },
+  {
+    "name": "Poo Wall",
+    "avg_color": [
+      87,
+      48,
+      39
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Poo_Wall.png"
+  },
+  {
+    "name": "Pumpkin Wall",
+    "avg_color": [
+      132,
+      58,
+      3
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pumpkin_Wall.png"
+  },
+  {
+    "name": "Pumpkin",
+    "avg_color": [
+      137,
+      84,
+      11
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pumpkin.png"
+  },
+  {
+    "name": "Purple Stained Glass",
+    "avg_color": [
+      131,
+      62,
+      135
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Purple_Stained_Glass.png"
+  },
+  {
+    "name": "Rainbow Brick Wall",
+    "avg_color": [
+      1,
+      32,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rainbow_Brick_Wall.gif"
+  },
+  {
+    "name": "Rainbow Brick",
+    "avg_color": [
+      57,
+      127,
+      0
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rainbow_Brick.gif"
+  },
+  {
+    "name": "Red Brick Wall",
+    "avg_color": [
+      59,
+      34,
+      32
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Brick_Wall.png"
+  },
+  {
+    "name": "Red Brick",
+    "avg_color": [
+      106,
+      62,
+      56
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Brick.png"
+  },
+  {
+    "name": "Red Stained Glass",
+    "avg_color": [
+      156,
+      52,
+      62
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Stained_Glass.png"
+  },
+  {
+    "name": "Red Stucco Wall",
+    "avg_color": [
+      111,
+      60,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Stucco_Wall.png"
+  },
+  {
+    "name": "Red Stucco",
+    "avg_color": [
+      152,
+      87,
+      77
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Stucco.png"
+  },
+  {
+    "name": "Reef Wall",
+    "avg_color": [
+      78,
+      36,
+      86
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Reef_Wall.png"
+  },
+  {
+    "name": "Reef Block",
+    "avg_color": [
+      85,
+      114,
+      120
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Reef_Block.png"
+  },
+  {
+    "name": "Rich Mahogany Fence",
+    "avg_color": [
+      107,
+      62,
+      65
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rich_Mahogany_Fence.png"
+  },
+  {
+    "name": "Rich Mahogany",
+    "avg_color": [
+      108,
+      62,
+      66
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rich_Mahogany.png"
+  },
+  {
+    "name": "Rich Mahogany Wall",
+    "avg_color": [
+      51,
+      21,
+      23
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rich_Mahogany_Wall.png"
+  },
+  {
+    "name": "Ruby Gemspark Wall",
+    "avg_color": [
+      149,
+      34,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ruby_Gemspark_Wall.png"
+  },
+  {
+    "name": "Sandfall Wall",
+    "avg_color": [
+      79,
+      87,
+      66
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sandfall_Wall.png"
+  },
+  {
+    "name": "Sandfall Block",
+    "avg_color": [
+      88,
+      109,
+      102
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sandfall_Block.png"
+  },
+  {
+    "name": "Sandstone Brick Wall",
+    "avg_color": [
+      86,
+      82,
+      56
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sandstone_Brick_Wall.png"
+  },
+  {
+    "name": "Sandstone Brick",
+    "avg_color": [
+      119,
+      111,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sandstone_Brick.png"
+  },
+  {
+    "name": "Sapphire Gemspark Wall",
+    "avg_color": [
+      34,
+      55,
+      149
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sapphire_Gemspark_Wall.png"
+  },
+  {
+    "name": "Shadewood Fence",
+    "avg_color": [
+      72,
+      78,
+      76
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shadewood_Fence.png"
+  },
+  {
+    "name": "Shadewood",
+    "avg_color": [
+      66,
+      78,
+      90
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shadewood.png"
+  },
+  {
+    "name": "Shadewood Wall",
+    "avg_color": [
+      27,
+      33,
+      38
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shadewood_Wall.png"
+  },
+  {
+    "name": "Shimmerfall Wall",
+    "avg_color": [
+      95,
+      91,
+      147
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shimmerfall_Wall.png"
+  },
+  {
+    "name": "Shimmerfall Block",
+    "avg_color": [
+      92,
+      105,
+      142
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shimmerfall_Block.png"
+  },
+  {
+    "name": "Shroomite Plating Wall",
+    "avg_color": [
+      20,
+      23,
+      130
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shroomite_Plating_Wall.png"
+  },
+  {
+    "name": "Shroomite Plating",
+    "avg_color": [
+      32,
+      32,
+      131
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Shroomite_Plating.png"
+  },
+  {
+    "name": "Silly Green Balloon Wall",
+    "avg_color": [
+      10,
+      116,
+      102
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silly_Green_Balloon_Wall.png"
+  },
+  {
+    "name": "Silly Green Balloon",
+    "avg_color": [
+      9,
+      149,
+      131
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silly_Green_Balloon.png"
+  },
+  {
+    "name": "Silly Pink Balloon Wall",
+    "avg_color": [
+      143,
+      27,
+      80
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silly_Pink_Balloon_Wall.png"
+  },
+  {
+    "name": "Silly Pink Balloon",
+    "avg_color": [
+      182,
+      33,
+      101
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silly_Pink_Balloon.png"
+  },
+  {
+    "name": "Silly Purple Balloon Wall",
+    "avg_color": [
+      102,
+      59,
+      153
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silly_Purple_Balloon_Wall.png"
+  },
+  {
+    "name": "Silly Purple Balloon",
+    "avg_color": [
+      135,
+      72,
+      208
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silly_Purple_Balloon.png"
+  },
+  {
+    "name": "Silver Brick Wall",
+    "avg_color": [
+      62,
+      69,
+      70
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silver_Brick_Wall.png"
+  },
+  {
+    "name": "Silver Brick",
+    "avg_color": [
+      78,
+      91,
+      92
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Silver_Brick.png"
+  },
+  {
+    "name": "Slime Block Wall",
+    "avg_color": [
+      26,
+      52,
+      114
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Slime_Block_Wall.png"
+  },
+  {
+    "name": "Slime Block",
+    "avg_color": [
+      33,
+      82,
+      179
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Slime_Block.png"
+  },
+  {
+    "name": "Smooth Granite Wall",
+    "avg_color": [
+      17,
+      15,
+      39
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Smooth_Granite_Wall.png"
+  },
+  {
+    "name": "Smooth Granite Block",
+    "avg_color": [
+      23,
+      21,
+      50
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Smooth_Granite_Block.png"
+  },
+  {
+    "name": "Smooth Marble Wall",
+    "avg_color": [
+      118,
+      124,
+      140
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Smooth_Marble_Wall.png"
+  },
+  {
+    "name": "Smooth Marble Block",
+    "avg_color": [
+      115,
+      120,
+      136
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Smooth_Marble_Block.png"
+  },
+  {
+    "name": "Smooth Sandstone Wall",
+    "avg_color": [
+      119,
+      64,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Smooth_Sandstone_Wall.png"
+  },
+  {
+    "name": "Smooth Sandstone",
+    "avg_color": [
+      165,
+      106,
+      65
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Smooth_Sandstone.png"
+  },
+  {
+    "name": "Snow Brick Wall",
+    "avg_color": [
+      80,
+      89,
+      99
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Snow_Brick_Wall.png"
+  },
+  {
+    "name": "Snow Brick",
+    "avg_color": [
+      112,
+      131,
+      155
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Snow_Brick.png"
+  },
+  {
+    "name": "Snowfall Wall",
+    "avg_color": [
+      28,
+      45,
+      57
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Snowfall_Wall.png"
+  },
+  {
+    "name": "Snowfall Block",
+    "avg_color": [
+      65,
+      96,
+      113
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Snowfall_Block.png"
+  },
+  {
+    "name": "Solar Brick Wall",
+    "avg_color": [
+      52,
+      20,
+      28
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Solar_Brick_Wall.png"
+  },
+  {
+    "name": "Solar Brick",
+    "avg_color": [
+      173,
+      80,
+      40
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Solar_Brick.png"
+  },
+  {
+    "name": "Spider Nest Wall",
+    "avg_color": [
+      69,
+      41,
+      38
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Spider_Nest_Wall.png"
+  },
+  {
+    "name": "Spider Nest Block",
+    "avg_color": [
+      130,
+      102,
+      90
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Spider_Nest_Block.png"
+  },
+  {
+    "name": "Spike Wall",
+    "avg_color": [
+      17,
+      15,
+      14
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Spike_Wall.png"
+  },
+  {
+    "name": "Spike Block",
+    "avg_color": [
+      66,
+      50,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Spike_Block.png"
+  },
+  {
+    "name": "Spooky Wood Wall",
+    "avg_color": [
+      32,
+      22,
+      40
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Spooky_Wood_Wall.png"
+  },
+  {
+    "name": "Spooky Wood",
+    "avg_color": [
+      57,
+      46,
+      64
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Spooky_Wood.png"
+  },
+  {
+    "name": "Star Royale Brick Wall",
+    "avg_color": [
+      28,
+      29,
+      73
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Star_Royale_Brick_Wall.png"
+  },
+  {
+    "name": "Star Royale Brick",
+    "avg_color": [
+      66,
+      60,
+      97
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Star_Royale_Brick.png"
+  },
+  {
+    "name": "Stardust Brick Wall",
+    "avg_color": [
+      46,
+      28,
+      38
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stardust_Brick_Wall.png"
+  },
+  {
+    "name": "Stardust Brick",
+    "avg_color": [
+      99,
+      122,
+      127
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stardust_Brick.png"
+  },
+  {
+    "name": "Stone Slab Wall",
+    "avg_color": [
+      52,
+      52,
+      52
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stone_Slab_Wall.png"
+  },
+  {
+    "name": "Stone Slab",
+    "avg_color": [
+      73,
+      73,
+      73
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stone_Slab.png"
+  },
+  {
+    "name": "Stone Wall",
+    "avg_color": [
+      42,
+      42,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stone_Wall.png"
+  },
+  {
+    "name": "Tin Brick Wall",
+    "avg_color": [
+      56,
+      55,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Tin_Brick_Wall.png"
+  },
+  {
+    "name": "Tin Brick",
+    "avg_color": [
+      102,
+      99,
+      77
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Tin_Brick.png"
+  },
+  {
+    "name": "Tin Plating Wall",
+    "avg_color": [
+      56,
+      57,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Tin_Plating_Wall.png"
+  },
+  {
+    "name": "Tin Plating",
+    "avg_color": [
+      101,
+      99,
+      75
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Tin_Plating.png"
+  },
+  {
+    "name": "Titanstone Block Wall",
+    "avg_color": [
+      27,
+      21,
+      18
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Titanstone_Block_Wall.png"
+  },
+  {
+    "name": "Titanstone Block",
+    "avg_color": [
+      41,
+      42,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Titanstone_Block.png"
+  },
+  {
+    "name": "Topaz Gemspark Wall",
+    "avg_color": [
+      144,
+      140,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Topaz_Gemspark_Wall.png"
+  },
+  {
+    "name": "Tungsten Brick Wall",
+    "avg_color": [
+      47,
+      63,
+      47
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Tungsten_Brick_Wall.png"
+  },
+  {
+    "name": "Tungsten Brick",
+    "avg_color": [
+      65,
+      85,
+      65
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Tungsten_Brick.png"
+  },
+  {
+    "name": "Vortex Brick Wall",
+    "avg_color": [
+      24,
+      35,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Vortex_Brick_Wall.png"
+  },
+  {
+    "name": "Vortex Brick",
+    "avg_color": [
+      66,
+      120,
+      107
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Vortex_Brick.png"
+  },
+  {
+    "name": "White Dynasty Wall",
+    "avg_color": [
+      132,
+      112,
+      106
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/White_Dynasty_Wall.png"
+  },
+  {
+    "name": "Wood Wall",
+    "avg_color": [
+      62,
+      44,
+      33
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Wood_Wall.png"
+  },
+  {
+    "name": "Wooden Fence",
+    "avg_color": [
+      89,
+      66,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Wooden_Fence.png"
+  },
+  {
+    "name": "Xenon Moss Brick Wall",
+    "avg_color": [
+      3,
+      39,
+      73
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Xenon_Moss_Brick_Wall.png"
+  },
+  {
+    "name": "Xenon Moss Brick",
+    "avg_color": [
+      46,
+      131,
+      169
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Xenon_Moss_Brick.png"
+  },
+  {
+    "name": "Yellow Stained Glass",
+    "avg_color": [
+      139,
+      120,
+      70
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Yellow_Stained_Glass.png"
+  },
+  {
+    "name": "Yellow Stucco Wall",
+    "avg_color": [
+      81,
+      77,
+      51
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Yellow_Stucco_Wall.png"
+  },
+  {
+    "name": "Yellow Stucco",
+    "avg_color": [
+      127,
+      118,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Yellow_Stucco.png"
+  },
+  {
+    "name": "Amber Stone Wall",
+    "avg_color": [
+      62,
+      53,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amber_Stone_Wall.png"
+  },
+  {
+    "name": "Amber Stone Block",
+    "avg_color": [
+      150,
+      102,
+      71
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amber_Stone_Block.png"
+  },
+  {
+    "name": "Amethyst Stone Wall",
+    "avg_color": [
+      62,
+      51,
+      69
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amethyst_Stone_Wall.png"
+  },
+  {
+    "name": "Amethyst Stone Block",
+    "avg_color": [
+      117,
+      77,
+      140
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Amethyst_Stone_Block.png"
+  },
+  {
+    "name": "Blue Mossy Wall",
+    "avg_color": [
+      32,
+      38,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Mossy_Wall.png"
+  },
+  {
+    "name": "Blue Moss",
+    "avg_color": [
+      23,
+      57,
+      75
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Moss.png"
+  },
+  {
+    "name": "Brown Mossy Wall",
+    "avg_color": [
+      52,
+      52,
+      37
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Brown_Mossy_Wall.png"
+  },
+  {
+    "name": "Brown Moss",
+    "avg_color": [
+      75,
+      78,
+      28
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Brown_Moss.png"
+  },
+  {
+    "name": "Cave Dirt Wall",
+    "avg_color": [
+      73,
+      52,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cave_Dirt_Wall.png"
+  },
+  {
+    "name": "Cinder Wall",
+    "avg_color": [
+      65,
+      37,
+      36
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cinder_Wall.png"
+  },
+  {
+    "name": "Hellstone",
+    "avg_color": [
+      107,
+      51,
+      43
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hellstone.png"
+  },
+  {
+    "name": "Corrupt Growth Wall",
+    "avg_color": [
+      58,
+      44,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Corrupt_Growth_Wall.png"
+  },
+  {
+    "name": "Ebonstone Block",
+    "avg_color": [
+      46,
+      37,
+      53
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonstone_Block.png"
+  },
+  {
+    "name": "Corrupt Mass Wall",
+    "avg_color": [
+      46,
+      37,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Corrupt_Mass_Wall.png"
+  },
+  {
+    "name": "Corrupt Pustule Wall",
+    "avg_color": [
+      50,
+      48,
+      56
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Corrupt_Pustule_Wall.png"
+  },
+  {
+    "name": "Corrupt Tendril Wall",
+    "avg_color": [
+      55,
+      34,
+      62
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Corrupt_Tendril_Wall.png"
+  },
+  {
+    "name": "Cracked Dirt Wall",
+    "avg_color": [
+      91,
+      64,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cracked_Dirt_Wall.png"
+  },
+  {
+    "name": "Craggy Stone Wall",
+    "avg_color": [
+      52,
+      52,
+      52
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Craggy_Stone_Wall.png"
+  },
+  {
+    "name": "Crimsandstone Wall",
+    "avg_color": [
+      55,
+      25,
+      20
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimsandstone_Wall.png"
+  },
+  {
+    "name": "Crimson Blister Wall",
+    "avg_color": [
+      141,
+      62,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimson_Blister_Wall.png"
+  },
+  {
+    "name": "Crimstone Block",
+    "avg_color": [
+      107,
+      31,
+      32
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimstone_Block.png"
+  },
+  {
+    "name": "Crimson Crust Wall",
+    "avg_color": [
+      117,
+      50,
+      38
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimson_Crust_Wall.png"
+  },
+  {
+    "name": "Crimson Scab Wall",
+    "avg_color": [
+      82,
+      21,
+      24
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimson_Scab_Wall.png"
+  },
+  {
+    "name": "Crimson Teeth Wall",
+    "avg_color": [
+      84,
+      42,
+      37
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimson_Teeth_Wall.png"
+  },
+  {
+    "name": "Crimstone Wall",
+    "avg_color": [
+      50,
+      34,
+      35
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimstone_Wall.png"
+  },
+  {
+    "name": "Crumbling Dirt Wall",
+    "avg_color": [
+      98,
+      70,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crumbling_Dirt_Wall.png"
+  },
+  {
+    "name": "Desert Fossil Wall",
+    "avg_color": [
+      111,
+      63,
+      32
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Desert_Fossil_Wall.png"
+  },
+  {
+    "name": "Desert Fossil",
+    "avg_color": [
+      113,
+      66,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Desert_Fossil.png"
+  },
+  {
+    "name": "Diamond Stone Wall",
+    "avg_color": [
+      47,
+      57,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Diamond_Stone_Wall.png"
+  },
+  {
+    "name": "Diamond Stone Block",
+    "avg_color": [
+      123,
+      124,
+      146
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Diamond_Stone_Block.png"
+  },
+  {
+    "name": "Ebonsandstone Wall",
+    "avg_color": [
+      51,
+      33,
+      65
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonsandstone_Wall.png"
+  },
+  {
+    "name": "Ebonstone Wall",
+    "avg_color": [
+      39,
+      33,
+      44
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ebonstone_Wall.png"
+  },
+  {
+    "name": "Ember Wall",
+    "avg_color": [
+      52,
+      27,
+      23
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ember_Wall.png"
+  },
+  {
+    "name": "Emerald Stone Wall",
+    "avg_color": [
+      36,
+      54,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Emerald_Stone_Wall.png"
+  },
+  {
+    "name": "Emerald Stone Block",
+    "avg_color": [
+      68,
+      114,
+      96
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Emerald_Stone_Block.png"
+  },
+  {
+    "name": "Fractured Stone Wall",
+    "avg_color": [
+      59,
+      49,
+      57
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Fractured_Stone_Wall.png"
+  },
+  {
+    "name": "Green Mossy Wall",
+    "avg_color": [
+      34,
+      51,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Mossy_Wall.png"
+  },
+  {
+    "name": "Green Moss",
+    "avg_color": [
+      20,
+      84,
+      69
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Green_Moss.png"
+  },
+  {
+    "name": "Hallowed Cavern Wall",
+    "avg_color": [
+      84,
+      67,
+      88
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hallowed_Cavern_Wall.png"
+  },
+  {
+    "name": "Pearlstone Block",
+    "avg_color": [
+      113,
+      97,
+      123
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlstone_Block.png"
+  },
+  {
+    "name": "Hallowed Crystalline Wall",
+    "avg_color": [
+      89,
+      38,
+      91
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hallowed_Crystalline_Wall.png"
+  },
+  {
+    "name": "Hallowed Prism Wall",
+    "avg_color": [
+      68,
+      29,
+      72
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hallowed_Prism_Wall.png"
+  },
+  {
+    "name": "Hallowed Shard Wall",
+    "avg_color": [
+      106,
+      35,
+      98
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hallowed_Shard_Wall.png"
+  },
+  {
+    "name": "Hardened Crimsand Wall",
+    "avg_color": [
+      34,
+      16,
+      15
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Crimsand_Wall.png"
+  },
+  {
+    "name": "Hardened Crimsand Block",
+    "avg_color": [
+      65,
+      45,
+      48
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Crimsand_Block.png"
+  },
+  {
+    "name": "Hardened Ebonsand Wall",
+    "avg_color": [
+      49,
+      36,
+      63
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Ebonsand_Wall.png"
+  },
+  {
+    "name": "Hardened Ebonsand Block",
+    "avg_color": [
+      81,
+      65,
+      97
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Ebonsand_Block.png"
+  },
+  {
+    "name": "Hardened Pearlsand Wall",
+    "avg_color": [
+      69,
+      64,
+      105
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Pearlsand_Wall.png"
+  },
+  {
+    "name": "Hardened Pearlsand Block",
+    "avg_color": [
+      131,
+      123,
+      152
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Pearlsand_Block.png"
+  },
+  {
+    "name": "Hardened Sand Wall",
+    "avg_color": [
+      132,
+      81,
+      47
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Sand_Wall.png"
+  },
+  {
+    "name": "Hardened Sand Block",
+    "avg_color": [
+      162,
+      124,
+      60
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hardened_Sand_Block.png"
+  },
+  {
+    "name": "Ice Wall",
+    "avg_color": [
+      67,
+      91,
+      118
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ice_Wall.png"
+  },
+  {
+    "name": "Ice Block",
+    "avg_color": [
+      84,
+      150,
+      218
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ice_Block.png"
+  },
+  {
+    "name": "Ivy Stone Wall",
+    "avg_color": [
+      44,
+      56,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ivy_Stone_Wall.png"
+  },
+  {
+    "name": "Grass Seeds",
+    "avg_color": [
+      14,
+      100,
+      41
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Grass_Seeds.png"
+  },
+  {
+    "name": "Jungle Vine Wall",
+    "avg_color": [
+      71,
+      66,
+      47
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Jungle_Vine_Wall.png"
+  },
+  {
+    "name": "Jungle Grass Seeds",
+    "avg_color": [
+      54,
+      101,
+      12
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Jungle_Grass_Seeds.png"
+  },
+  {
+    "name": "Layered Dirt Wall",
+    "avg_color": [
+      98,
+      70,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Layered_Dirt_Wall.png"
+  },
+  {
+    "name": "Leafy Jungle Wall",
+    "avg_color": [
+      68,
+      63,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Leafy_Jungle_Wall.png"
+  },
+  {
+    "name": "Lichen Stone Wall",
+    "avg_color": [
+      62,
+      58,
+      48
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Lichen_Stone_Wall.png"
+  },
+  {
+    "name": "Magma Wall",
+    "avg_color": [
+      76,
+      23,
+      19
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Magma_Wall.png"
+  },
+  {
+    "name": "Mottled Stone Wall",
+    "avg_color": [
+      60,
+      48,
+      51
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mottled_Stone_Wall.png"
+  },
+  {
+    "name": "Mud Wall",
+    "avg_color": [
+      51,
+      43,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mud_Wall.png"
+  },
+  {
+    "name": "Mud Block",
+    "avg_color": [
+      75,
+      56,
+      60
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mud_Block.png"
+  },
+  {
+    "name": "Obsidian Wall",
+    "avg_color": [
+      33,
+      30,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Obsidian_Wall.png"
+  },
+  {
+    "name": "Obsidian",
+    "avg_color": [
+      48,
+      45,
+      85
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Obsidian.png"
+  },
+  {
+    "name": "Old Stone Wall",
+    "avg_color": [
+      50,
+      37,
+      27
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Old_Stone_Wall.png"
+  },
+  {
+    "name": "Pearlsandstone Wall",
+    "avg_color": [
+      61,
+      44,
+      80
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlsandstone_Wall.png"
+  },
+  {
+    "name": "Pearlstone Wall",
+    "avg_color": [
+      63,
+      54,
+      69
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pearlstone_Wall.png"
+  },
+  {
+    "name": "Purple Mossy Wall",
+    "avg_color": [
+      44,
+      35,
+      47
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Purple_Mossy_Wall.png"
+  },
+  {
+    "name": "Purple Moss",
+    "avg_color": [
+      69,
+      34,
+      91
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Purple_Moss.png"
+  },
+  {
+    "name": "Red Mossy Wall",
+    "avg_color": [
+      40,
+      35,
+      35
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Mossy_Wall.png"
+  },
+  {
+    "name": "Red Moss",
+    "avg_color": [
+      100,
+      71,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Moss.png"
+  },
+  {
+    "name": "Rocky Dirt Wall",
+    "avg_color": [
+      78,
+      60,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rocky_Dirt_Wall.png"
+  },
+  {
+    "name": "Rough Dirt Wall",
+    "avg_color": [
+      67,
+      46,
+      29
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rough_Dirt_Wall.png"
+  },
+  {
+    "name": "Ruby Stone Wall",
+    "avg_color": [
+      61,
+      41,
+      45
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ruby_Stone_Wall.png"
+  },
+  {
+    "name": "Ruby Stone Block",
+    "avg_color": [
+      141,
+      76,
+      75
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ruby_Stone_Block.png"
+  },
+  {
+    "name": "Sandstone Wall",
+    "avg_color": [
+      122,
+      66,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sandstone_Wall.png"
+  },
+  {
+    "name": "Sapphire Stone Wall",
+    "avg_color": [
+      41,
+      47,
+      58
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sapphire_Stone_Wall.png"
+  },
+  {
+    "name": "Sapphire Stone Block",
+    "avg_color": [
+      70,
+      90,
+      144
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sapphire_Stone_Block.png"
+  },
+  {
+    "name": "Smouldering Stone Wall",
+    "avg_color": [
+      75,
+      45,
+      39
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Smouldering_Stone_Wall.png"
+  },
+  {
+    "name": "Snow Wall",
+    "avg_color": [
+      95,
+      111,
+      123
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Snow_Wall.png"
+  },
+  {
+    "name": "Snow Block",
+    "avg_color": [
+      131,
+      155,
+      184
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Snow_Block.png"
+  },
+  {
+    "name": "Spider Wall",
+    "avg_color": [
+      29,
+      25,
+      21
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Spider_Wall.png"
+  },
+  {
+    "name": "Cobweb",
+    "avg_color": [
+      97,
+      108,
+      110
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Cobweb.png"
+  },
+  {
+    "name": "Stalactite Stone Wall",
+    "avg_color": [
+      51,
+      57,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stalactite_Stone_Wall.png"
+  },
+  {
+    "name": "Topaz Stone Wall",
+    "avg_color": [
+      67,
+      63,
+      53
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Topaz_Stone_Wall.png"
+  },
+  {
+    "name": "Topaz Stone Block",
+    "avg_color": [
+      142,
+      112,
+      68
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Topaz_Stone_Block.png"
+  },
+  {
+    "name": "Wavy Dirt Wall",
+    "avg_color": [
+      99,
+      70,
+      54
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Wavy_Dirt_Wall.png"
+  },
+  {
+    "name": "Worn Stone Wall",
+    "avg_color": [
+      64,
+      64,
+      57
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Worn_Stone_Wall.png"
+  },
+  {
+    "name": "Grass Wall",
+    "avg_color": [
+      26,
+      68,
+      40
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Grass_Wall.png"
+  },
+  {
+    "name": "Dryad",
+    "avg_color": [
+      109,
+      118,
+      33
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Dryad.png"
+  },
+  {
+    "name": "Jungle Wall",
+    "avg_color": [
+      64,
+      75,
+      49
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Jungle_Wall.png"
+  },
+  {
+    "name": "Flower Wall",
+    "avg_color": [
+      40,
+      66,
+      46
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Flower_Wall.png"
+  },
+  {
+    "name": "Christmas Tree Wallpaper",
+    "avg_color": [
+      48,
+      32,
+      22
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Christmas_Tree_Wallpaper.png"
+  },
+  {
+    "name": "Painter",
+    "avg_color": [
+      118,
+      38,
+      32
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Painter.png"
+  },
+  {
+    "name": "Ornament Wallpaper",
+    "avg_color": [
+      98,
+      87,
+      59
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ornament_Wallpaper.png"
+  },
+  {
+    "name": "Candy Cane Wallpaper",
+    "avg_color": [
+      44,
+      40,
+      30
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Candy_Cane_Wallpaper.png"
+  },
+  {
+    "name": "Festive Wallpaper",
+    "avg_color": [
+      46,
+      43,
+      34
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Festive_Wallpaper.png"
+  },
+  {
+    "name": "Stars Wallpaper",
+    "avg_color": [
+      38,
+      51,
+      75
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Stars_Wallpaper.png"
+  },
+  {
+    "name": "Squiggles Wallpaper",
+    "avg_color": [
+      152,
+      129,
+      95
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Squiggles_Wallpaper.png"
+  },
+  {
+    "name": "Snowflake Wallpaper",
+    "avg_color": [
+      91,
+      101,
+      134
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Snowflake_Wallpaper.png"
+  },
+  {
+    "name": "Krampus Horn Wallpaper",
+    "avg_color": [
+      119,
+      110,
+      96
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Krampus_Horn_Wallpaper.png"
+  },
+  {
+    "name": "Bluegreen Wallpaper",
+    "avg_color": [
+      8,
+      31,
+      42
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bluegreen_Wallpaper.png"
+  },
+  {
+    "name": "Grinch Finger Wallpaper",
+    "avg_color": [
+      58,
+      84,
+      65
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Grinch_Finger_Wallpaper.png"
+  },
+  {
+    "name": "Fancy Gray Wallpaper",
+    "avg_color": [
+      105,
+      106,
+      117
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Fancy_Gray_Wallpaper.png"
+  },
+  {
+    "name": "Ice Floe Wallpaper",
+    "avg_color": [
+      86,
+      141,
+      204
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ice_Floe_Wallpaper.png"
+  },
+  {
+    "name": "Music Wallpaper",
+    "avg_color": [
+      82,
+      41,
+      105
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Music_Wallpaper.png"
+  },
+  {
+    "name": "Purple Rain Wallpaper",
+    "avg_color": [
+      65,
+      41,
+      125
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Purple_Rain_Wallpaper.png"
+  },
+  {
+    "name": "Rainbow Wallpaper",
+    "avg_color": [
+      102,
+      76,
+      111
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Rainbow_Wallpaper.png"
+  },
+  {
+    "name": "Sparkle Stone Wallpaper",
+    "avg_color": [
+      102,
+      112,
+      145
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sparkle_Stone_Wallpaper.png"
+  },
+  {
+    "name": "Starlit Heaven Wallpaper",
+    "avg_color": [
+      10,
+      10,
+      10
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Starlit_Heaven_Wallpaper.png"
+  },
+  {
+    "name": "Bubble Wallpaper",
+    "avg_color": [
+      86,
+      103,
+      168
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Bubble_Wallpaper.png"
+  },
+  {
+    "name": "Copper Pipe Wallpaper",
+    "avg_color": [
+      124,
+      70,
+      19
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Copper_Pipe_Wallpaper.png"
+  },
+  {
+    "name": "Ducky Wallpaper",
+    "avg_color": [
+      113,
+      131,
+      113
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Ducky_Wallpaper.png"
+  },
+  {
+    "name": "Arcane Rune Wall",
+    "avg_color": [
+      107,
+      72,
+      60
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Arcane_Rune_Wall.png"
+  },
+  {
+    "name": "Traveling Merchant",
+    "avg_color": [
+      57,
+      53,
+      85
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Traveling_Merchant.png"
+  },
+  {
+    "name": "Sail",
+    "avg_color": [
+      140,
+      128,
+      94
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Sail.png"
+  },
+  {
+    "name": "Pirate",
+    "avg_color": [
+      50,
+      48,
+      55
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Pirate.png"
+  },
+  {
+    "name": "Corrupt Grass Wall",
+    "avg_color": [
+      35,
+      36,
+      57
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Corrupt_Grass_Wall.png"
+  },
+  {
+    "name": "Hallowed Grass Wall",
+    "avg_color": [
+      33,
+      60,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Hallowed_Grass_Wall.png"
+  },
+  {
+    "name": "Crimson Grass Wall",
+    "avg_color": [
+      100,
+      51,
+      51
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Crimson_Grass_Wall.png"
+  },
+  {
+    "name": "Purple Solution",
+    "avg_color": [
+      100,
+      67,
+      150
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Purple_Solution.png"
+  },
+  {
+    "name": "Blue Solution",
+    "avg_color": [
+      63,
+      133,
+      159
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Blue_Solution.png"
+  },
+  {
+    "name": "Red Solution",
+    "avg_color": [
+      110,
+      55,
+      61
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Red_Solution.png"
+  },
+  {
+    "name": "Mushroom Wall (natural)",
+    "avg_color": [
+      46,
+      45,
+      70
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Mushroom_Wall_%28natural%29.png"
+  },
+  {
+    "name": "Dark Blue Solution",
+    "avg_color": [
+      50,
+      73,
+      140
+    ],
+    "sprite_url": "https://terraria.wiki.gg/images/Dark_Blue_Solution.png"
+  }
+]
