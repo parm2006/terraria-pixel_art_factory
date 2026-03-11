@@ -38,8 +38,8 @@ if sys.platform == "win32":
 
 MAX_LOGICAL_DIM = 150  # max logical pixels per dimension
 DB_FILES = {
-    "blocks": "blocks.json",
-    "walls":  "walls.json",
+    "blocks": "cleaned_blocks.json",
+    "walls":  "cleaned_walls.json",
 }
 
 # Windows: ANSI just enabled above so always use true color.

@@ -256,17 +256,17 @@ def main():
 
     print("=== Scraping BLOCKS ===")
     blocks = scrape_subpages(BLOCK_SUBPAGES, EXCLUDED, NOT_A_BLOCK, "blocks", session)
-    blocks_path = out_dir / "blocks.json"
+    blocks_path = out_dir / "raw_blocks.json"
     with open(blocks_path, "w") as f:
         json.dump(blocks, f, indent=2)
-    print(f"Saved {len(blocks)} blocks -> {blocks_path}")
+    print(f"Saved {len(blocks)} blocks -> {blocks_path}\n  Clean this file and save as cleaned_blocks.json before using pixel_art.py")
 
     print("\n=== Scraping WALLS ===")
     walls = scrape_subpages(WALLS_SUBPAGES, EXCLUDED, NOT_A_BLOCK, "walls", session)
-    walls_path = out_dir / "walls.json"
+    walls_path = out_dir / "raw_walls.json"
     with open(walls_path, "w") as f:
         json.dump(walls, f, indent=2)
-    print(f"Saved {len(walls)} walls -> {walls_path}")
+    print(f"Saved {len(walls)} walls -> {walls_path}\n  Clean this file and save as cleaned_walls.json before using pixel_art.py")
 
     print("\nDone. Run pixel_art.py to convert images.")
 
