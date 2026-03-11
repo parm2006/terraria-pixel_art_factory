@@ -1,49 +1,16 @@
 # Terraria Pixel Art Converter
 
-Convert any pixel art image into a Terraria block/wall material list. Give it an image, get back a color-coded list of which Terraria blocks to use and how many of each you need.
+Convert a pixel art image into a Terraria block/wall material list. The tool matches each pixel's color to the closest Terraria block or wall and outputs how many of each you need to build it.
 
-## What it does
-
-- Reads a pixel art image
-- Matches each logical pixel's color to the closest Terraria block or wall by average RGB value
-- Outputs a color-coded material list showing block name and quantity
-
-![Example output showing colored swatches next to block names and counts](example_output.png)
+The Terraria wiki has already been scraped and the block/wall color database is included (`data/blocks.json`, `data/walls.json`) — no setup required.
 
 ---
 
 ## Requirements
 
-- Python 3.10+
-- pip packages: `requests`, `beautifulsoup4`, `pillow`
-
 ```bash
-pip install requests beautifulsoup4 pillow
+pip install pillow
 ```
-
----
-
-## Setup (first time only)
-
-Before converting any images, you need to build the block/wall color database by scraping the Terraria wiki. This only needs to be done once.
-
-```bash
-python scrape_terraria.py --output-dir ./data
-```
-
-This will download and process every block and wall sprite from [terraria.wiki.gg](https://terraria.wiki.gg), compute the average color of each one, and save the results to `data/blocks.json` and `data/walls.json`.
-
-It takes a few minutes. You will see output like:
-
-```
-=== Scraping BLOCKS ===
-  [OK] Dirt Block                RGB(108, 77, 56)
-  [OK] Stone Block               RGB(82, 82, 82)
-  ...
-Saved 266 blocks -> data/blocks.json
-```
-
-You never need to run this again unless Terraria adds new blocks and you want to update the database.
 
 ---
 
@@ -54,92 +21,36 @@ python pixel_art.py <image> --mode blocks --db-dir ./data
 python pixel_art.py <image> --mode walls  --db-dir ./data
 ```
 
-### Arguments
-
-| Argument | Required | Description |
-|---|---|---|
-| `image` | yes | Path to your pixel art image (PNG recommended) |
-| `--mode` | yes | `blocks` or `walls` - which palette to match against |
-| `--db-dir` | no | Directory containing `blocks.json` / `walls.json` (default: current directory) |
-
-### Examples
-
-```bash
-# Match against blocks
-python pixel_art.py my_sprite.png --mode blocks --db-dir ./data
-
-# Match against walls (larger palette, good for backgrounds)
-python pixel_art.py my_sprite.png --mode walls --db-dir ./data
-```
+Use `--mode blocks` for foreground pixel art. Use `--mode walls` for backgrounds — the wall palette is larger (460 vs 266 entries).
 
 ---
 
-## Output explained
+## Output
 
 ```
 ── Pixel art material list (rainbow order) ──────────────────────────
-  ██ #CB9174    Red Ice Block           x 847     ██
-  ██ #261E5C    Granite Block           x 575     █
-  ██ #615282    Demonite Ore            x 507     █
+  ██ #CB9174    Red Ice Block               x 847     ██
+  ██ #261E5C    Granite Block               x 575     █
+  ██ #615282    Demonite Ore                x 507     █
+  ██ #030213    Asphalt Block               x 967     ██
 
   Total pixels: 14098
 ```
 
-- **Color swatch** - the source color from your image (requires a terminal with true color support)
-- **Hex code** - the exact RGB value that was matched
-- **Block name** - the closest Terraria block by color
-- **Count** - how many of that block you need to place
-- **Bar** - proportional bar showing how much of the image that block makes up
-- **Total pixels** - total number of logical pixels (= total blocks needed)
-
-The list is sorted by hue (rainbow order) so visually similar colors are grouped together.
+Each row is one Terraria block. The colored swatch is the source color from your image, the count is how many of that block to place, and the bar shows its proportion of the total.
 
 ---
 
 ## Image guidelines
 
-**Works best with:**
-- PNG files with a transparent background
-- Pixel art with clean, flat colors
-- Images up to ~150 logical pixels wide/tall
-
-**Known limitations:**
-- JPEG or heavily compressed images may produce extra noise colors. The tool quantizes to 128 colors automatically to compensate, but very noisy images will still have less accurate results.
-- White backgrounds are not automatically removed - if your PNG has a white background instead of transparency, a "Cloud" entry will appear in the output representing all those white pixels. Export your art with a transparent background to avoid this.
-- The tool matches blocks by average RGB only - it does not account for how a block looks when tiled repeatedly in-game, which can look different from its average color.
-- Only 1x1 placeable blocks and walls are included. Furniture, multi-tile objects, animated blocks, and gravity-affected blocks (sand, silt) are excluded.
+- **PNG with transparent background** works best. White-background PNGs will produce a "Cloud" entry for all background pixels.
+- The tool auto-detects pixel size from image dimensions, assuming at most 150 logical pixels along the longest axis. A 450px wide image is treated as 150 logical pixels wide (3px per pixel).
+- JPEG or compressed images are automatically quantized to 128 colors before matching to reduce noise.
 
 ---
 
-## Files
+## Notes
 
-| File | Purpose |
-|---|---|
-| `scrape_terraria.py` | One-time scraper to build the color database |
-| `pixel_art.py` | Main tool - converts images to material lists |
-| `data/blocks.json` | Block color database (generated by scraper) |
-| `data/walls.json` | Wall color database (generated by scraper) |
-
----
-
-## How the color matching works
-
-1. The image is background-stripped and quantized to 128 colors to remove compression artifacts
-2. The image dimensions determine the logical pixel size: an image up to 150px wide uses 1px-per-pixel; a 450px wide image uses 3px-per-pixel, and so on
-3. Each logical pixel cell's most common color is extracted
-4. That color is matched to the closest block/wall in the database using Euclidean distance in RGB space
-5. All source colors that map to the same block are merged into one output row
-
----
-
-## Blocks excluded from the palette
-
-The following categories are intentionally excluded:
-
-- **Gravity blocks** - Sand, Silt, Slush and variants (they fall)
-- **Animated blocks** - Living Fire, Lavafall, Waterfall, etc.
-- **Liquids** - Water, Lava, Honey
-- **Furniture and crafting stations** - Work Bench, Furnace, etc.
-- **Multi-tile objects** - Anything larger than 1x1
-
-To add or remove blocks from the palette, edit the `EXCLUDED` and `NOT_A_BLOCK` sets in `scrape_terraria.py` and re-run the scraper.
+- Gravity blocks (sand, silt), animated blocks (living fire, waterfalls), liquids, furniture, and multi-tile objects are excluded from the palette.
+- Color matching uses Euclidean distance in RGB space — closest average color wins.
+- The block database was scraped from [terraria.wiki.gg](https://terraria.wiki.gg). To regenerate it, run `python scrape_terraria.py --output-dir ./data` (requires `requests` and `beautifulsoup4`).
